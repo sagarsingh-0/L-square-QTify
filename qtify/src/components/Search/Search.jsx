@@ -8,7 +8,7 @@ function Search({placeholder}){
     }
     return (
         <form className={styles.wrapper} onSubmit ={onSubmit}>
-        <input className={styles.search}placeholder=""/>
+        <input className={styles.search} placeholder={placeholder}/>
         <button className={styles.SearchButton}type="submit">
             <SearchIcon/>
         </button>
